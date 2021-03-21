@@ -1,6 +1,6 @@
 # Open-Source Nutator
 
-This repository is a ‘fork’ of a project by Dhwani K. Trivedi and Joshua M. Pearce from Michigan Technological University. The original project is not on GitHub, but is instead hosted [here](https://osf.io/bqysc/), on the Open Science Framework. A published paper that describes the original project can found [here](https://www.academia.edu/34589801/Open_Source_3_D_Printed_Nutating_Mixer). I am ‘forking’ their project into this repository because I prefer GitHub for version control and open sourcing. 
+This repository is a ‘fork’ of a project by Dhwani K. Trivedi and Joshua M. Pearce from Michigan Technological University. The original project is not on GitHub, but is instead hosted [here](https://osf.io/bqysc/), on the Open Science Framework. A published paper that describes the original project can found [here](https://www.academia.edu/34589801/Open_Source_3_D_Printed_Nutating_Mixer) or [here](docs/trivedi_pearce_2017.pdf). I am ‘forking’ their project into this repository because I prefer GitHub for version control and open sourcing. 
 
 In this repository, I detail some of the various modifications I made to build this project. For all 3D-printed parts, I used a [Prusa MK3s](https://shop.prusa3d.com/en/3d-printers/180-original-prusa-i3-mk3s-kit.html?gclid=Cj0KCQjwutaCBhDfARIsAJHWnHvx8k-mshW_x2fmi0MGLbitysPgBX_iFMeMSdHa64Brgxne7ESQhUUaAvccEALw_wcB). `.3mf` files for all parts can be found here. 
 
