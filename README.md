@@ -23,7 +23,10 @@ In this repository, I detail some of the various modifications I made to build t
    | DC motor             | Amazon<br />ASIN [B01N1JQFYX](https://www.amazon.com/gp/product/B01N1JQFYX/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&psc=1) | 15.49                           | This 12 V worm gear motor is the exact model that the original project recommends. This motor can still be sourced from Amazon USA as of 2020-03-20. |
    | M3 screws            | McMaster-Carr<br />[91290A111](https://www.mcmaster.com/91290A111/)<br />and <br />McMaster-Carr<br />[ 91290A115](https://www.mcmaster.com/91290A115/) | 8.71 / 100 x 4 + 7.71 / 100 x 3 | For the M3 screws, I used 6 mm long screws for everything except when securing the bearing holder to the motor shaft, and the the cover to the base. For those parts, I used 10 mm long screws. |
    | M3 nuts              | McMaster-Carr <br />[90592A085](https://www.mcmaster.com/90592A085/) | 0.88 / 100 x 5                  | Regular M3 nuts.                                             |
+   
+
    Estimated total cost, not including 3D printer filament, is: **$33.35 USD**. 
+   
 
 5. Out of laziness, I opted not to redesign any of the 3D-printed parts. All the parts seem fine for the most part, but the one thing that annoys me is that for the 3D-printed base, the parts that hold the nuts to secure the cover are quite large. I would shrink the perimeters of the nut-securing insets, such that they’re more or less exactly the dimensions of the nut, and then I’d pull the nut in with a screw from the opposite side, to establish a captive nut. See step 9 of [this article](https://help.prusa3d.com/en/guide/1-introduction_54032) for an explanation. In the meantime, a careful dab of hot glue works fine. 
 
