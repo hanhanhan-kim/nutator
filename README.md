@@ -7,11 +7,11 @@ This repository is a ‘fork’ of a project by Dhwani K. Trivedi and Joshua M. 
 
 In this repository, I detail some of the various modifications I made to build this project. For all 3D-printed parts, I used a [Prusa MK3s](https://shop.prusa3d.com/en/3d-printers/180-original-prusa-i3-mk3s-kit.html?gclid=Cj0KCQjwutaCBhDfARIsAJHWnHvx8k-mshW_x2fmi0MGLbitysPgBX_iFMeMSdHa64Brgxne7ESQhUUaAvccEALw_wcB). `.3mf` files for all parts can be found [here](hardware/3MF_prusa_slicer_files/). 
 
-1. Two components are printed with a flexible filament, such as TPU: the dimpled mat and the slit. The original project recommends NinjaFlex, which is an extremely soft type of TPU. NinjaFlex, however, is an absolute pain to print; the softer the material, the more difficult it is to print. I **do *not* recommend printing with NinjaFlex yourself **.  Rather, I suggest the following alternatives:
+1. Two components are printed with a flexible filament, such as TPU: the dimpled mat and the slit. The original project recommends NinjaFlex, which is an extremely soft type of TPU. NinjaFlex, however, is an absolute pain to print; the softer the material, the more difficult it is to print. I **do *not* recommend printing with NinjaFlex yourself**.  Rather, I suggest the following alternatives:
 
    1. I recommend getting the slit made at a 3rd party vendor. I found that [Protolabs ](https://www.protolabs.com/services/3d-printing/polyjet/design-guidelines/) was one of the few manufacturers that could make the part out of PolyJet, with a Shore hardness of 30A.  The pricing is also affordable.
 
-   2. I recommend printing a *negative* of the dimpled mat using PLA, and then filling that negative with [2-part silicone](https://www.amazon.com/gp/product/B07V5FFPWC/ref=ppx_yo_dt_b_asin_title_o00_s01?ie=UTF8&psc=1). I found this method to be very easy and affordable, and the silicone-making process is completely safe. Just remember to thoroughly mix the silicone parts together. A photo of the finished product is attached below:
+   2. I recommend printing a *negative* of the dimpled mat using PLA, and then filling that negative with [2-part silicone](https://www.amazon.com/gp/product/B07V5FFPWC/ref=ppx_yo_dt_b_asin_title_o00_s01?ie=UTF8&psc=1) (credit to [Julian Wagner](https://github.com/julianmwagner) for the idea!). I found this method to be very easy and affordable, and the silicone-making process is completely safe. Just remember to thoroughly mix the silicone parts together. A photo of the finished product is attached below:
 
       ![silicone_mold](docs/silicone_dimpled_mat.jpg)
 
