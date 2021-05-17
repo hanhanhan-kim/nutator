@@ -11,6 +11,7 @@ In this repository, I detail some of the various modifications I made to build t
 
    1. I recommend getting the slit made at a 3rd party vendor. I found that [Protolabs ](https://www.protolabs.com/services/3d-printing/polyjet/design-guidelines/) was one of the few manufacturers that could make the part out of PolyJet, with a Shore hardness of 30A.  The pricing is also affordable.
    2. I recommend printing a *negative* of the dimpled mat using PLA, and then filling that negative with [2-part silicone](https://www.amazon.com/gp/product/B07V5FFPWC/ref=ppx_yo_dt_b_asin_title_o00_s01?ie=UTF8&psc=1). I found this method to be very easy and affordable, and the silicone-making process is completely safe. Just remember to thoroughly mix the silicone parts together. A photo of the finished product is attached below:
+   
    <!-- ![demo](docs/silicone_dimpled_mat.jpg) -->
    <img src="/docs/silicone_dimpled_mat.jpg" width="1080"/>
 
