@@ -2,7 +2,8 @@
 
 This repository is a ‘fork’ of a project by Dhwani K. Trivedi and Joshua M. Pearce from Michigan Technological University. The original project is not on GitHub, but is instead hosted [here](https://osf.io/bqysc/), on the Open Science Framework. A published paper that describes the original project can found [here](https://www.academia.edu/34589801/Open_Source_3_D_Printed_Nutating_Mixer) or [here](docs/trivedi_pearce_2017.pdf). I am ‘forking’ their project into this repository because I prefer GitHub for version control and open sourcing. 
 
-![demo](docs/demo.gif)
+<!-- ![demo](docs/demo.gif) -->
+<img src="/docs/demo.gif" width="1080"/>
 
 In this repository, I detail some of the various modifications I made to build this project. For all 3D-printed parts, I used a [Prusa MK3s](https://shop.prusa3d.com/en/3d-printers/180-original-prusa-i3-mk3s-kit.html?gclid=Cj0KCQjwutaCBhDfARIsAJHWnHvx8k-mshW_x2fmi0MGLbitysPgBX_iFMeMSdHa64Brgxne7ESQhUUaAvccEALw_wcB). `.3mf` files for all parts can be found [here](hardware/3MF_prusa_slicer_files/). 
 
@@ -10,7 +11,8 @@ In this repository, I detail some of the various modifications I made to build t
 
    1. I recommend getting the slit made at a 3rd party vendor. I found that [Protolabs ](https://www.protolabs.com/services/3d-printing/polyjet/design-guidelines/) was one of the few manufacturers that could make the part out of PolyJet, with a Shore hardness of 30A.  The pricing is also affordable.
    2. I recommend printing a *negative* of the dimpled mat using PLA, and then filling that negative with [2-part silicone](https://www.amazon.com/gp/product/B07V5FFPWC/ref=ppx_yo_dt_b_asin_title_o00_s01?ie=UTF8&psc=1). I found this method to be very easy and affordable, and the silicone-making process is completely safe. Just remember to thoroughly mix the silicone parts together. A photo of the finished product is attached below:
-      ![silicone_mat](docs/silicone_dimpled_mat.jpg)
+      <!-- ![demo](docs/silicone_dimpled_mat.jpg) -->
+      <img src="/docs/docs/silicone_dimpled_mat.jpg" width="1080"/>
 
 2. The reason the slit component must be printed with the softest possible TPU is because the rod piece “leans” into it, while the rod rotates via the motor and skateboard bearing. The extent to which the rod leans into the slit is greatest when the rod points in the same direction as the slit’s long axis. By this logic, the **rod should be printed with the highest possible strength**, so that it doesn’t snap during the nutator’s operation. Adjust the slicer settings for the rod such that both the infill and the perimeter values are high. The attached [`rod.3mf`](hardware/3MF_prusa_slicer_files/rod.3mf) file provides settings for Prusament PLA; the material can be easily adjusted. If you want to be really excessive, you can send the rod component to a 3rd party service like [Shapeways](https://www.shapeways.com/), and have it printed in something like [steel](https://www.shapeways.com/materials/steel/), for 40 USD or so (see the final note on pricing)
 
